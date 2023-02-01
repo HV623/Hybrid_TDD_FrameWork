@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-31T16:42:31 IST" name="Default suite" finished-at="2023-01-31T16:42:43 IST" duration-ms="12287">
+  <suite started-at="2023-02-01T16:21:12 IST" name="Default suite" finished-at="2023-02-01T16:22:15 IST" duration-ms="63339">
     <groups>
     </groups>
-    <test started-at="2023-01-31T16:42:31 IST" name="Default test" finished-at="2023-01-31T16:42:43 IST" duration-ms="12287">
+    <test started-at="2023-02-01T16:21:12 IST" name="Default test" finished-at="2023-02-01T16:22:15 IST" duration-ms="63339">
       <class name="TestCases.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginTest@6bd61f98]" started-at="2023-01-31T16:42:31 IST" name="setup" finished-at="2023-01-31T16:42:37 IST" duration-ms="6673" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginTest@6bd61f98]" started-at="2023-02-01T16:21:12 IST" name="setup" finished-at="2023-02-01T16:21:14 IST" duration-ms="2471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="hi()[pri:0, instance:TestCases.LoginTest@6bd61f98]" started-at="2023-01-31T16:42:37 IST" name="hi" finished-at="2023-01-31T16:42:41 IST" duration-ms="3279" status="PASS">
+        <test-method signature="hi()[pri:0, instance:TestCases.LoginTest@6bd61f98]" started-at="2023-02-01T16:21:14 IST" name="hi" finished-at="2023-02-01T16:22:14 IST" duration-ms="60148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hi -->
-        <test-method is-config="true" signature="closing()[pri:0, instance:TestCases.LoginTest@6bd61f98]" started-at="2023-01-31T16:42:41 IST" name="closing" finished-at="2023-01-31T16:42:43 IST" duration-ms="2264" status="PASS">
+        <test-method is-config="true" signature="closing()[pri:0, instance:TestCases.LoginTest@6bd61f98]" started-at="2023-02-01T16:22:14 IST" name="closing" finished-at="2023-02-01T16:22:15 IST" duration-ms="653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closing -->

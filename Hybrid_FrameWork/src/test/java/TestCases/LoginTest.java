@@ -14,19 +14,18 @@ import org.testng.annotations.*;
 import BaseClass.Base;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LoginTest extends Base {
+public class LoginTest extends Base  {
 
 	public	WebDriver driver;
-	public	Properties prop;
-	public	FileInputStream fr;
-	public	File fis;
+	public File fis;
+	public FileInputStream fr;
+	public Properties prop;
+	
 		
 		@BeforeMethod
 		public void setup() throws Throwable {
-		//	Base b=new Base();
-			driver=hii("firefox");
-	//		WebDriverManager.chromedriver().setup();
-	//		driver=new ChromeDriver();
+		
+			driver=hii("chrome");
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 			
@@ -35,18 +34,19 @@ public class LoginTest extends Base {
 		public void closing() {
 			driver.quit();
 		}
+		
 
 		@Test
 		public void hi() throws Throwable {
 			prop=new Properties();
-			fis=new File("C:\\Users\\lenovo\\eclipse-workspace\\Hybrid_FrameWork\\src\\test\\java\\utilities\\data.properties");
+			fis=new File("C:\\Users\\lenovo\\git\\repository\\Hybrid_FrameWork\\src\\test\\java\\utilities\\data.properties");
 			fr=new FileInputStream(fis);
 			prop.load(fr);
+		
 			System.out.println(prop.getProperty("url"));
 			driver.get(prop.getProperty("url"));
 			
 			}
-
-
+		
 
 }

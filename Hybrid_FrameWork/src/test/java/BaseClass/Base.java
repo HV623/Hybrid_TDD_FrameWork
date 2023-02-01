@@ -16,7 +16,8 @@ public class Base {
 		
 		public static WebDriver hii(String browser) {
 			
-			browser="firefox";
+			browser="chrome";
+			
 			if(browser.equals("chrome")) {
 				WebDriverManager.chromedriver().setup();
 				 driver=new ChromeDriver();
