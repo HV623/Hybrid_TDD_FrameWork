@@ -2,24 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-01T16:21:12 IST" name="Default suite" finished-at="2023-02-01T16:22:15 IST" duration-ms="63339">
+  <suite started-at="2023-02-04T17:15:37 IST" name="Suite" finished-at="2023-02-04T17:15:55 IST" duration-ms="17252">
     <groups>
     </groups>
-    <test started-at="2023-02-01T16:21:12 IST" name="Default test" finished-at="2023-02-01T16:22:15 IST" duration-ms="63339">
-      <class name="TestCases.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginTest@6bd61f98]" started-at="2023-02-01T16:21:12 IST" name="setup" finished-at="2023-02-01T16:21:14 IST" duration-ms="2471" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="hi()[pri:0, instance:TestCases.LoginTest@6bd61f98]" started-at="2023-02-01T16:21:14 IST" name="hi" finished-at="2023-02-01T16:22:14 IST" duration-ms="60148" status="PASS">
+    <test started-at="2023-02-04T17:15:37 IST" name="Test" finished-at="2023-02-04T17:15:55 IST" duration-ms="17252">
+      <class name="TestCases.SimpleTest">
+        <test-method signature="hi()[pri:1, instance:TestCases.SimpleTest@6bd61f98]" started-at="2023-02-04T17:15:38 IST" name="hi" finished-at="2023-02-04T17:15:54 IST" duration-ms="16620" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hi -->
-        <test-method is-config="true" signature="closing()[pri:0, instance:TestCases.LoginTest@6bd61f98]" started-at="2023-02-01T16:22:14 IST" name="closing" finished-at="2023-02-01T16:22:15 IST" duration-ms="653" status="PASS">
+        <test-method is-config="true" signature="closing()[pri:0, instance:TestCases.SimpleTest@6bd61f98]" started-at="2023-02-04T17:15:54 IST" name="closing" finished-at="2023-02-04T17:15:55 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closing -->
-      </class> <!-- TestCases.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- TestCases.SimpleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

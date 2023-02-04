@@ -6,7 +6,7 @@
       <class name="TestCases.LoginTest">
         <methods>
           <include name="closing"/>
-          <include name="hi"/>
+          <include name="runfromData"/>
           <include name="setup"/>
         </methods>
       </class> <!-- TestCases.LoginTest -->

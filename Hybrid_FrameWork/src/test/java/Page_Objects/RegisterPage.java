@@ -14,11 +14,35 @@ public class RegisterPage {
 			PageFactory.initElements(driver,this);
 			
 		}
-			@FindBy(xpath="")
-			private WebElement ab;
-
-
-
-
+			@FindBy(xpath="//input[@id='input-firstname']")
+			private WebElement FirstNameInputBox;
+			@FindBy(xpath="//input[@id='input-lastname']")
+			private WebElement LastNameInputBox;
+			@FindBy(xpath="//input[@id='input-email']")
+			private WebElement EmailInputBox;
+			@FindBy(xpath="//input[@id='input-telephone']")
+			private WebElement TelePhoneInputBox;
+			@FindBy(xpath="//input[@id='input-password']")
+			private WebElement PasswordInputBox;
+			@FindBy(xpath="//input[@id='input-confirm']")
+			private WebElement ConfirmPasswordInputBox;
+			@FindBy(xpath="//label[normalize-space()='Yes']")
+			private WebElement NewsLetter_Yes_InputBox;
+			@FindBy(xpath="//label[normalize-space()='No']")
+			private WebElement NeewsLetter_No_InputBox;
+			@FindBy(xpath="//input[@value='Continue']")
+			private WebElement ContinutButton;
+			
+			
+			
+			public WebElement NewsLetter_Yes_InputBox() {
+				return NewsLetter_Yes_InputBox;
+			}
+			public WebElement NeewsLetter_No_InputBox() {
+				return NeewsLetter_No_InputBox;	
+			}
+			public WebElement ContinutButton() {
+				return ContinutButton;
+			}
 
 }
